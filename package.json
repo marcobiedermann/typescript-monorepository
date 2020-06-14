@@ -1,0 +1,22 @@
+{
+  "name": "typescript-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap --hoist",
+    "build": "lerna run build",
+    "clean": "lerna run clean",
+    "postinstall": "npm run bootstrap",
+    "prepublishOnly": "npm run build",
+    "publish": "lerna publish"
+  },
+  "keywords": [],
+  "author": "Marco Biedermann",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.5"
+  }
+}

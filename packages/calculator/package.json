@@ -1,0 +1,21 @@
+{
+  "name": "@marcobiedermann/calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@marcobiedermann/add": "^1.0.0",
+    "@marcobiedermann/subtract": "^1.0.0"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.5"
+  }
+}
