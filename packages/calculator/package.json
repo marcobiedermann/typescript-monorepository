@@ -11,11 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@marcobiedermann/add": "^1.0.0",
-    "@marcobiedermann/subtract": "^1.0.0"
-  },
-  "devDependencies": {
-    "rimraf": "^3.0.2",
-    "typescript": "^3.9.5"
+    "@marcobiedermann/add": "file:../add",
+    "@marcobiedermann/subtract": "file:../subtract"
   }
 }
