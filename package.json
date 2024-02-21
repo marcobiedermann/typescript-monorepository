@@ -11,7 +11,9 @@
   "author": "Marco Biedermann",
   "license": "ISC",
   "workspaces": [
-    "packages/*"
+    "packages/add",
+    "packages/subtract",
+    "packages/calculator"
   ],
   "devDependencies": {
     "rimraf": "^5.0.5",
