@@ -3,17 +3,5 @@
   "compilerOptions": {
     "outDir": "./dist",
     "rootDir": "./src",
-    "paths": {
-      "@marcobiedermann/add": ["../add"],
-      "@marcobiedermann/subtract": ["../subtract"],
-    }
-  },
-  "references": [
-    {
-      "path": "../add"
-    },
-    {
-      "path": "../subtract"
-    }
-  ]
+  }
 }
